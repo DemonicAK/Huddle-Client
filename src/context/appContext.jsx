@@ -1,6 +1,6 @@
 import { io } from "socket.io-client";
 import React from "react";
-const SOCKET_URL = import.meta.env.VITE_BACKEND_URL;
+const SOCKET_URL = import.meta.env.VITE_BACKEND_URL_WS;
 
 
 export const socket = io(SOCKET_URL, {
